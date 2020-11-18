@@ -1,12 +1,17 @@
 # EcologicalNetworks.jl
 
-This `julia` package provides a common interface to analyze all types of data
-on ecological networks. It is designed to be general, easy to expand, and work
-on bipartite/unipartite as well as deterministic/quantitative/probabilistic
-networks. The current version is compatible with `julia` version 1.0 and 0.7.
+This `julia` package provides a common interface to analyze all types of data on
+ecological networks. It is designed to be general, easy to expand, and work on
+bipartite/unipartite as well as deterministic/quantitative/probabilistic
+networks. The current version is compatible with `julia` version 1.0.
 
 [![](https://img.shields.io/badge/docs-stable-blue.svg)](https://ecojulia.github.io/EcologicalNetworks.jl/stable)
 [![](https://img.shields.io/badge/docs-dev-orange.svg)](https://ecojulia.github.io/EcologicalNetworks.jl/dev)
+
+There is a short bibliography of the methods in the [package
+documentation][pdocref], and in the documentations of each function.
+
+[pdocref]: http://poisotlab.io/EcologicalNetworks.jl/latest/#references
 
 ## Getting started
 
@@ -24,6 +29,7 @@ add EcologicalNetworksPlots
 
 That's it. Now head over to the
 [documentation](http://EcoJulia.github.io/EcologicalNetworks.jl/stable/).
+
 
 ## How's the code doing?
 

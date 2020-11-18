@@ -16,5 +16,7 @@ module TestData
 
    p = pajek()
    @test typeof(p[:Chesapeake]) <: UnipartiteQuantitativeNetwork
+   @test richness(p[:ChesMiddle]) == 37
+   @test richness(p[:Florida]) == 128
 
 end
